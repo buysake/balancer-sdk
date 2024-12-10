@@ -96,11 +96,14 @@
     "@ethersproject/constants": "^5.4.0",
     "@ethersproject/contracts": "^5.4.0",
     "@ethersproject/providers": "^5.4.5",
+    "@ethersproject/strings": "^5.7.0",
     "axios": "^0.24.0",
     "ethers": "^5",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",
+    "graphql-tag": "^2.12.6",
     "json-to-graphql-query": "^2.2.4",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "tslib": "^2.8.1"
   }
 }

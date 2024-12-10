@@ -130,7 +130,7 @@ export const findEventInReceiptLogs = ({
     .filter((log: Log) => {
       return isSameAddress(log.address, to);
     })
-    .map((log) => {
+    .map((log: Log) => {
       try {
         return contractInterface.parseLog(log);
       } catch (error) {
@@ -139,7 +139,7 @@ export const findEventInReceiptLogs = ({
         return null;
       }
     })
-    .find((parsedLog) => parsedLog?.name === logName);
+    .find((parsedLog: LogDescription | null) => parsedLog?.name === logName);
   if (!event) {
     throw new Error('Event not found in logs');
   }
