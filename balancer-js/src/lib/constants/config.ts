@@ -720,8 +720,10 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         aaveLinearPoolFactory: '0x85070081473d2a17ebe199f381b879e3fba27d11',
         authorizer: '0xa133a95a4c15d0ef3b67715b744116286705fcdd',
         authorizerAdaptor: '0x2842ea70f7ecf3cbf6f8c7c5a43b76542f596f1e',
-        authorizerAdaptorEntrypoint: '0x6d41e7a1b95a50c07eef85015fd7038d781237cd',
-        authorizerWithAdaptorValidation: '0xbace365e865a7e3cdf3c757c8de4870fff2dc92e',
+        authorizerAdaptorEntrypoint:
+          '0x6d41e7a1b95a50c07eef85015fd7038d781237cd',
+        authorizerWithAdaptorValidation:
+          '0xbace365e865a7e3cdf3c757c8de4870fff2dc92e',
         bal: '0x2DaA47A2cE0BE7484C6328e20eE200e901fEf443',
         balancerHelpers: '0x44aed640354b5d74ee706439456518390f04bfec',
         balancerQueries: '0x878ab84abc562e311fce6dfb1d2b74b746d95ae4',
@@ -729,19 +731,25 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         batchRelayerLibrary: '0x0000000000000000000000000000000000000000',
         childChainGauge: '0x0000000000000000000000000000000000000000',
         childChainGaugeFactory: '0x0000000000000000000000000000000000000000',
-        childChainGaugeRewardHelper: '0x0000000000000000000000000000000000000000',
+        childChainGaugeRewardHelper:
+          '0x0000000000000000000000000000000000000000',
         childChainGaugeTokenAdder: '0x0000000000000000000000000000000000000000',
-        childChainLiquidityGaugeFactory: '0x0000000000000000000000000000000000000000',
+        childChainLiquidityGaugeFactory:
+          '0x0000000000000000000000000000000000000000',
         childChainStreamer: '0x0000000000000000000000000000000000000000',
         circuitBreakerLib: '0x0000000000000000000000000000000000000000',
-        composableStablePoolFactory: '0x18a11aa3fd4d16358016e224fbe226d2297bddac',
-        doubleEntrypointFixRelayer: '0x0000000000000000000000000000000000000000',
+        composableStablePoolFactory:
+          '0x18a11aa3fd4d16358016e224fbe226d2297bddac',
+        doubleEntrypointFixRelayer:
+          '0x0000000000000000000000000000000000000000',
         erc4626LinearPoolFactory: '0x0000000000000000000000000000000000000000',
         externalWeightedMath: '0x0000000000000000000000000000000000000000',
         gaugeWorkingBalanceHelper: '0x0000000000000000000000000000000000000000',
         l2BalancerPseudoMinter: '0x0000000000000000000000000000000000000000',
-        l2LayerZeroBridgeForwarder: '0x0000000000000000000000000000000000000000',
-        managedPoolAddRemoveTokenLib: '0x0000000000000000000000000000000000000000',
+        l2LayerZeroBridgeForwarder:
+          '0x0000000000000000000000000000000000000000',
+        managedPoolAddRemoveTokenLib:
+          '0x0000000000000000000000000000000000000000',
         managedPoolAmmLib: '0x0000000000000000000000000000000000000000',
         managedPoolFactory: '0x0000000000000000000000000000000000000000',
         merkleOrchard: '0x0000000000000000000000000000000000000000',
@@ -755,10 +763,12 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         mockWeightedPool: '0x0000000000000000000000000000000000000000',
         mockYearnLinearPool: '0x0000000000000000000000000000000000000000',
         mockYearnTokenVault: '0x0000000000000000000000000000000000000000',
-        noProtocolFeeLiquidityBootstrappingPoolFactory: '0x0000000000000000000000000000000000000000',
+        noProtocolFeeLiquidityBootstrappingPoolFactory:
+          '0x0000000000000000000000000000000000000000',
         nullVotingEscrow: '0x0000000000000000000000000000000000000000',
         poolRecoveryHelper: '0x0000000000000000000000000000000000000000',
-        protocolFeePercentagesProvider: '0x3c9bcb291b5bc0aed5491ef461933d217039246e',
+        protocolFeePercentagesProvider:
+          '0x3c9bcb291b5bc0aed5491ef461933d217039246e',
         protocolFeesCollector: '0x86eab6dc751bf99686550ce02d66bdff3bf4b492',
         protocolFeesWithdrawer: '0x0000000000000000000000000000000000000000',
         protocolIdRegistry: '0x13a0fd51412845fd30d20fddce5383c9de31ead0',
@@ -766,10 +776,11 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         rewardsOnlyGauge: '0x0000000000000000000000000000000000000000',
         vault: '0xfdb2925ae2d3e2eacfe927611305e5e56aa5f832',
         veBoostV2: '0x0000000000000000000000000000000000000000',
-        votingEscrowDelegationProxy: '0x0000000000000000000000000000000000000000',
+        votingEscrowDelegationProxy:
+          '0x0000000000000000000000000000000000000000',
         weightedPoolFactory: '0xfc1637d65a83f0f991c75abf3b7b8a3adbf6504d',
         weth: '0x6E1E9896e93F7A71ECB33d4386b49DeeD67a231A',
-        yearnLinearPoolFactory: '0x0000000000000000000000000000000000000000'
+        yearnLinearPoolFactory: '0x0000000000000000000000000000000000000000',
       },
       tokens: {
         bal: '0x2DaA47A2cE0BE7484C6328e20eE200e901fEf443',
@@ -777,7 +788,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
       },
     },
     urls: {
-      subgraph: 'https://api.goldsky.com/api/public/project_cluukfpdrw61a01xag6yihcuy/subgraphs/bartio/0.0.2/gn',
+      subgraph:
+        'https://api.goldsky.com/api/public/project_cluukfpdrw61a01xag6yihcuy/subgraphs/bartio/0.0.2/gn',
     },
     thirdParty: {
       coingecko: {
@@ -790,7 +802,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
     poolsToIgnore: [],
     sorConnectingTokens: [],
     sorTriPathMidPoolIds: [],
-  }
+  },
 };
 
 export const networkAddresses = (
