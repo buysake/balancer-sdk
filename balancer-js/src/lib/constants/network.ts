@@ -13,4 +13,5 @@ export enum Network {
   SEPOLIA = 11155111,
   FRAXTAL = 252,
   MODE = 34443,
+  BARTIO = 80084
 }
